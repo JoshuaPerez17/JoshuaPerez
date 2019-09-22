@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<style>
+	div.example {
+	background-color: green;
+	padding: 20px;
+	}
+
+	body {
+	background-color: lightblue;
+	}
+	
+	@media only screen and (max-width: 600px) {
+	body {
+	background-color: yellow;
+	}
+	div.example {
+	display: none;
+	}
+	}
+	
+	hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	}
+	
+	#colorTest{ /*id selector*/
+	color: white;
+	}
+	
+	img:hover {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	}
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href ="joshstyle.css">
+	<link rel="stylesheet" type="text/css" href ="printTest.css" media = "print">
+
+	<title> Joshua's Page </title>
+	</head>
+	<body>
+	
+		<img src = "http://puyonexus.puyovs.net/intro/images/ppf_aku.png" alt="akuma" width = "100" height = "100">
+		
+		<ul>
+			<li><a href ="#About">About</a></li>
+			<li><a href ="#Education">Education</a></li>
+			<li><a href ="#Programming Skills">Programming Skills</a></li>
+			<li><a href ="#Internships">Internships</a></li>
+			<li><a href ="#Interests">Interests</a></li>
+			<li><a href ="#Favorite Cards">Favorite Cards</a></li>
+			<li><a href ="#Favorite Websites">Favorite Websites</a></li>
+			<li><a href ="#Video">Video</a></li>
+			<li><a href ="#Input Test">Input Test</a></li>
+		</ul>
+
+	
+	<h1><a name ="About"></a> About </h1>
+	<p> Hello, my name is Joshua Perez,
+	I am a junior majoring in Information Technology.
+	</p>
+	
+	<hr>
+	
+	<h1><a name = "Education"></a> Education </h1>
+	<p> I am a junior attending <span style= "color:red"> St John's University </span>
+	with a bachelors in Information Technology. I am studying for
+	the comptia A+ certification test.
+	</p>
+	
+	<hr>
+	
+	<h1><a name ="Programming Skills"></a> Programming skills</h1>
+	
+	  <ul> 
+		  <li>Intermediate Java</li>
+		  <p> I have been studying Java since fall 2017. I have made multiple GUI programs and even a fully playable Pong game. </p>
+		  <li>Basic HTML5 </li> 
+		  <p> I only have a basic understanding of HTML5, and I'm excited to learn more!</p>
+		  <li> Basic Ruby </li>
+		  <p>My first programming language, it's very easy for beginners, although I'm more used to Java now.</p>
+		  <li> Basic C++ </li>
+		  <p>I need to study C++ more.</p>
+	  </ul>
+	  
+	  <hr>
+	  
+	<h1><a id = "Internships"></a> Internships </h1>
+	
+		<ul>
+			<li> None yet! </li>
+		</ul>
+		
+		<hr>
+		
+	<h1><a name = "Interests"></a> Interests </h1>
+		<ul>
+			<li>Video Games </li>
+			<li>Reading </li>
+			<li>Observing animals </li>
+			<li>Yu-Gi-Oh </li>
+			<li>Troubleshooting computer and network issues </li>
+		</ul>
+		
+		<hr>
+		
+	<h1><a name = "Favorite Cards"></a> Favorite Cards </h1>
+	  <table>
+	  <tr>
+		<th> <span style = "color:orange"> Effect </span> </th>
+		<th> <span style = "color:white"> Synchro </span> </th>
+		<th> XYZ </th>
+		<th> <span style = "color:purple"> Fusion </span> </th>
+		<th> <span style = "color:blue"> Link </span> </th>
+	  </tr>
+	  <tr>
+	   <td> <a href = "https://static-3.studiobebop.net/ygo_data/card_images/Ultimate_Conductor_Tyranno.jpg"> Ultimate Conductor Tyranno </a>
+	   <td> <a href = "https://inbaiyugi.com/upload/product/11056_pyrocesslayer_final_sigma.jpg"> Pyrocesslayer Final Sigma </a>
+	   <td> <a href = "https://i.ebayimg.com/images/i/182223635804-0-1/s-l1000.jpg">Number 95: Galaxy-Eyes Dark Matter Dragon</a>
+	   <td> <a href = "https://vignette.wikia.nocookie.net/yugioh/images/5/50/WormZero-HA03-EN-OP.jpg/revision/latest?cb=20111022091714">	Worm Zero</a>
+	   <td> <a href = "https://usercontent2.hubstatic.com/14085749_f520.jpg">	Crystron Needlefiber</a>
+	  </tr>
+	  </table>
+	  
+	  <hr>
+	  
+	 <h1> <a name ="Favorite Websites"> Favorite Websites </h1>
+		<ul>
+			<li> <a href = "https://www.youtube.com"> Youtube </a> </li>
+			<li> <a href = "https://www.smogon.com"> Smogon</a> </li>
+			<li> <a href = "https://www.w3schools.com">W3Schools</a></li>
+		</ul>
+		
+		<hr>
+	
+	 <h1> <a name ="Video":> Video </h1>
+		<iframe width="560" height="315"
+		src="https://www.youtube-nocookie.com/embed/kske6bnGzAw?controls=0"frameborder=0 allowiframe></iframe>
+		
+		<hr>
+		
+	<h1><a name = "Input Test":> Input Test </h1>
+	
+	First name <input type="text" id="name" name="first_name">
+	Last name<input type="text" id ="lname" name="last_name">
+	<input type="submit" value="submit">
+	
+	
+	<p class="noprint">This text shouldn't appear when printed.</p>	
+	</body>
+</html>
+	
+	
