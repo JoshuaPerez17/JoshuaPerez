@@ -13,12 +13,12 @@
 	
 	@media only screen and (max-width: 600px) {
 	body {
-	background-color: yellow;
-	}
+		background-color: yellow;
+		}
 	div.example {
-	display: none;
-	}
-	}
+    display: none;
+  }
+}
 	
 	hr {
 	display: block;
@@ -46,7 +46,7 @@
 	<title> Joshua's Page </title>
 	</head>
 	<body>
-	
+		<div class ="example">This is an example div.</div>
 		<img src = "http://puyonexus.puyovs.net/intro/images/ppf_aku.png" alt="akuma" width = "100" height = "100">
 		
 		<ul>
