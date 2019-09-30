@@ -35,7 +35,7 @@
 	
 	#colorTest{ /*id selector*/
 	color: white;
-	}
+	} 
 	
 	img:hover {
 	-webkit-transform: scaleX(-1);
