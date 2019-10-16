@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href ="quizstyle.css" rel ="stylesheet">
+	<link rel="stylesheet" href="path/bootstrap.css"/>
+	<script src = "quizscript.js"></script>
+
+ </head>
+
+
+	<body>
+	 <h1>Quiz Test</h1>
+
+
+		<form id = "quiz" name = "quiz">
+
+
+		 <p class = "questions">How many legs does the American Centipede have? </p>
+		 <input id = "textbox" type = "text" name = "question1">
+
+		 <p class = "questions">What is 12 * 12?</p>
+		 <input type = "radio" id = "mc" name = "question2" value = "144"> 144<br>
+		 <input type = "radio" id = "mc" name = "question2" value = "196"> 196<br>
+		 <input type = "radio" id = "mc" name = "question2" value = "50"> 50<br>
+		 <input type = "radio" id = "mc" name = "question2" value = "250"> 250<br>
+
+
+		 <p class = "questions">Who created Java?</p>
+
+		 <input type = "radio" id = "mc" name = "question3" value = "Bjarne Stroustrup"> Bjarne Stroustrup<br>
+		 <input type = "radio" id = "mc" name = "question3" value = "Guido van Rossum"> Guido van Rossum<br>
+		 <input type = "radio" id = "mc" name = "question3" value = "James Gosling"> James Gosling<br>
+		 <input type = "radio" id = "mc" name = "question3" value = "Steve Jobs"> Steve Jobs <br>
+		 
+		 <p class = "questions">Which one is Serph's Atma Avatar?
+			<input id = "watercrown" type = "radio" name = "question4" value = "watercrown">
+			<img src = "https://vignette.wikia.nocookie.net/megamitensei/images/6/6a/Watercrown_Hi_Resolution.png" width = 100 height = 100	/>
+			
+			<label class = "drinkbrand-cc watercrown" for="watercrown"></label>
+			
+			<input id = "fireball" type = "radio" name = "question4" value = "fireball" />
+			<img src = "https://vignette.wikia.nocookie.net/megamitensei/images/d/d3/Fireball_%28H%29_Hi_Resolution.png/revision/latest?cb=20120704164211" width = 100 height = 100 />
+			
+			<label class = "drinkbrand-cc fireball" for="fireball"></label>
+			
+			<input id = "twister" type = "radio" name = "question4" value = "twister" />
+			<img src = "https://vignette.wikia.nocookie.net/megamitensei/images/6/6f/Twister_Hi_Resolution.png/revision/latest?cb=20120704164710" width = 100 height = 100 />
+			<label class ="drinkbrand-cc twister" for="twister"></label>
+			
+			<input id = "seismic" type = "radio" name = "question4" value = "seismic" />
+			<img src = "https://vignette.wikia.nocookie.net/megamitensei/images/9/9d/Seismic_Wave_Hi_Resolution.png/revision/latest?cb=20120704165646" width = 100 height = 100 />
+			<label class = "drinkbrand-cc seismic" for = "seismic"></label>
+		<p class = "questions">What does HTML stand for?</p>
+		
+		<input type = "radio" id = "mc" name = "question5" value ="Hyper Text Marking Language"> Hyper Text Marking Language<br>
+		<input type = "radio" id = "mc" name = "question5" value ="Hyper Text Markup Language"> Hyper Text Markup Language<br>
+		<input type = "radio" id = "mc" name = "question5" value ="Hyper Text Marketing Language">Hyper Text Marketing Language<br>
+		<input type = "radio" id = "mc" name = "question5" value ="Hogs Taking Many Lemons">Hogs Taking Many Lemons<br>
+		
+			
+		 
+		 <input id = "button" type = "button" value = "Submit" onclick = "check();">
+		 
+		 </form>
+
+		<div id = "after_submit">
+	<p id = "number_correct"></p>
+	<p id = "message"></p>
+	</div>
+ </body>
+
+</html>
